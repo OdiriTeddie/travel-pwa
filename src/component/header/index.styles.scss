@@ -1,0 +1,12 @@
+.header {
+  padding-block: 2rem;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.logo {
+  width: 15rem;
+}
