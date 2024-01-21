@@ -1,0 +1,44 @@
+.search-trip {
+  padding-block: 3rem;
+  background-image: url("./images/bg-03.jpg");
+  mix-blend-mode: multiply;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+  }
+}
+
+.search-form {
+  padding-block: 1.5rem;
+  padding-inline: 2rem;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+
+  display: flex;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  &__input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+
+    input {
+      border: none;
+      outline: transparent;
+    }
+  }
+
+  &__icon {
+    svg {
+      font-size: 2.8rem;
+    }
+  }
+}

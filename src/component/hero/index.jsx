@@ -6,7 +6,9 @@ export const Hero = () => {
     <section className="hero-section">
       <div className="container">
         <div className="hero-content">
-          <h1>Explore the World Now!</h1>
+          <h1>
+            Explore the <br /> World Now!
+          </h1>
           <p>
             Looking for your dream vacation destination but do not know where to
             start? With the help of experienced and knowledgeable travel agents,
