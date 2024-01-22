@@ -1,0 +1,37 @@
+.adventure {
+  padding-block: 7rem;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  &__header {
+    max-width: 35rem;
+  }
+}
+
+.adventure__destination_box {
+  display: flex;
+  gap: 2rem;
+}
+.adventure__destination {
+  background-image: url("./images/destination1.jpg");
+  max-width: 25rem;
+  height: 23rem;
+  color: #fff;
+  border-radius: 15px;
+
+  &_overlay {
+    padding: 2rem;
+    background-color: #00000055;
+    height: 100%;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

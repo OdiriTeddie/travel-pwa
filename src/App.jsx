@@ -1,3 +1,5 @@
+import { Adventure } from "./component/adventure";
+import { Footer } from "./component/footer";
 import { Header } from "./component/header";
 import { Hero } from "./component/hero";
 import { PlanTrip } from "./component/plan";
@@ -10,6 +12,8 @@ function App() {
       <Hero />
       <PlanTrip />
       <SearchTrip />
+      <Adventure />
+      <Footer />
     </>
   );
 }
