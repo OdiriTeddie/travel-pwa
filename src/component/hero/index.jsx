@@ -14,12 +14,14 @@ export const Hero = () => {
             start? With the help of experienced and knowledgeable travel agents,
             you can plan the trip of a lifetime with ease.
           </p>
-          <div>
+          <div className="hero-booking">
             <FaAnchor />
-            <p>Book Your Trip!</p>
-            <h2>+ 01 234 345 894</h2>
+            <div>
+              <p>Book Your Trip!</p>
+              <h2>+ 01 234 345 894</h2>
+            </div>
           </div>
-          <button>Book Now</button>
+          <button className="btn">Book Now</button>
         </div>
       </div>
     </section>

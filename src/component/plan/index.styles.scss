@@ -1,15 +1,36 @@
 .plan-trip {
-  padding-block: 3rem;
+  padding-block: 5rem;
   .plan-header {
     display: flex;
+    flex-direction: column;
     align-items: center;
+  }
+
+  &__subheading {
+    font-family: "Satisfy", cursive;
+    color: #06a6e3;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+
+    h2 {
+      font-size: 3rem;
+    }
   }
 }
 
 .travel-list {
   display: flex;
+  flex-direction: column;
   gap: 2rem;
   justify-content: space-between;
+  margin-block: 3rem;
 }
 
 .travel-box {
@@ -40,5 +61,16 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+  }
+}
+
+@media (min-width: 756px) {
+  .plan-trip {
+    .plan-header {
+      flex-direction: row;
+    }
+  }
+  .travel-list {
+    flex-direction: row;
   }
 }

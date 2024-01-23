@@ -27,6 +27,7 @@
   background-color: #fff;
 
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   gap: 3rem;
 }
@@ -51,5 +52,11 @@
     svg {
       font-size: 2.8rem;
     }
+  }
+}
+
+@media (min-width: 756px) {
+  .search-form {
+    flex-direction: row;
   }
 }

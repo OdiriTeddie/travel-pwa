@@ -14,6 +14,7 @@
 
 .adventure__destination_box {
   display: flex;
+  flex-direction: column;
   gap: 2rem;
 }
 .adventure__destination {
@@ -33,5 +34,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media (min-width: 756px) {
+  .adventure__destination_box {
+    flex-direction: row;
   }
 }
