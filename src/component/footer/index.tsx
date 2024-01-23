@@ -15,7 +15,7 @@ export const Footer = () => {
           <div>
             <h4>Address</h4>
             <p>United Kingdom</p>
-            <ul role="list">
+            <ul role="list" className="footer__links">
               <li>
                 <a href="#">
                   <FaFacebook />

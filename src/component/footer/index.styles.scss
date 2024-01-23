@@ -26,3 +26,12 @@
   height: 100%;
   display: flex;
 }
+
+.footer__links {
+  display: flex;
+  gap: 1rem;
+
+  svg {
+    font-size: 1.5rem;
+  }
+}
