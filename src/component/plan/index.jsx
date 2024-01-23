@@ -51,9 +51,10 @@ export const PlanTrip = () => {
               </div>
             </div>
           </div>
+
           <div className="travel-box">
             <div className="travel-box__img">
-              <img src="./images/trave1.jpg" alt="" />
+              <img src="./images/tokyo.jpg" alt="" />
             </div>
             <div className="travel-box__content">
               <div>
@@ -81,7 +82,7 @@ export const PlanTrip = () => {
           </div>
           <div className="travel-box">
             <div className="travel-box__img">
-              <img src="./images/trave1.jpg" alt="" />
+              <img src="./images/califonia.jpg" alt="" />
             </div>
             <div className="travel-box__content">
               <div>
