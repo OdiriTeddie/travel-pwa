@@ -7,14 +7,14 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .search-btn {
+    display: none;
+  }
 }
 
 .logo {
   width: 15rem;
-}
-
-.search-btn {
-  display: none;
 }
 
 @media (min-width: 756px) {
@@ -22,9 +22,8 @@
     .container {
       flex-direction: row;
     }
-  }
-
-  .search-btn {
-    display: block;
+    .search-btn {
+      display: block;
+    }
   }
 }
