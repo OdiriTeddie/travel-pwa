@@ -9,9 +9,9 @@ export const AllServices = () => {
           <div className="all-services__img">
             <img src="./images/service1.jpg" alt="" />
           </div>
-          <div>
-            <div>
-              <p>Adventure Travel</p>
+          <div className="all-services__content">
+            <div className="all-services__header">
+              <p className="subheading">Adventure Travel</p>
               <h2>Embrace the Thrill of the unknown</h2>
               <p>
                 Are you tired of the typical tourist destinations and looking to
@@ -20,21 +20,21 @@ export const AllServices = () => {
                 book an adventure travel experience :
               </p>
             </div>
-            <ul>
-              <li>
+            <ul role="list" className="checklist">
+              <li className="list">
                 <IoMdCheckmark />
                 Connect with nature
               </li>
-              <li>
+              <li className="list">
                 <IoMdCheckmark />
-                Connect with nature
+                Experience other cultures
               </li>
-              <li>
+              <li className="list">
                 <IoMdCheckmark />
-                Connect with nature
+                Create unforgettable memories
               </li>
             </ul>
-            <button>All Services</button>
+            <button className="btn">All Services</button>
           </div>
         </div>
       </div>

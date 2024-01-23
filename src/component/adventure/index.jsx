@@ -5,12 +5,14 @@ export const Adventure = () => {
     <section className="adventure">
       <div className="container">
         <div className="adventure__header">
-          <p>Choose your Trip</p>
-          <h2>Start your Vacation Now</h2>
+          <p className="subheading">Choose your Trip</p>
+          <h2>Travel Destinations Available Worldwide</h2>
           <p>
-            Looking for your dream vacation destination but do not know where to
-            start? With the help of experienced and knowledgeable travel agents,
-            you can plan the trip of a lifetime with ease.
+            We have compiled a list of top destinations across the globe,
+            scoured the world for the most alluring and fascinating places to
+            visit. From the beautiful beaches of the Caribbean to the majestic
+            mountains of Europe and the vibrant cities of Asia, our destination
+            list has something for everyone.
           </p>
         </div>
 
@@ -19,28 +21,28 @@ export const Adventure = () => {
             <div className="adventure__destination_overlay">
               <h2>USA</h2>
               <p>Here is filled with diverse cultures & cities</p>
-              <button>All Package</button>
+              <button className="btn">All Package</button>
             </div>
           </div>
-          <div className="adventure__destination">
+          <div className="adventure__destination destination2">
             <div className="adventure__destination_overlay">
-              <h2>USA</h2>
-              <p>Here is filled with diverse cultures & cities</p>
-              <button>All Package</button>
+              <h2>Japan</h2>
+              <p>The top culture of the Land of the Rising Sun</p>
+              <button className="btn">All Package</button>
             </div>
           </div>
-          <div className="adventure__destination">
+          <div className="adventure__destination destination3">
             <div className="adventure__destination_overlay">
-              <h2>USA</h2>
-              <p>Here is filled with diverse cultures & cities</p>
-              <button>All Package</button>
+              <h2>California</h2>
+              <p>Explore the vibrant and natural cities and cloud</p>
+              <button className="btn">All Package</button>
             </div>
           </div>
-          <div className="adventure__destination">
+          <div className="adventure__destination destination4">
             <div className="adventure__destination_overlay">
-              <h2>USA</h2>
-              <p>Here is filled with diverse cultures & cities</p>
-              <button>All Package</button>
+              <h2>Italy</h2>
+              <p>Taste the cuisine and all charming cities, towns</p>
+              <button className="btn">All Package</button>
             </div>
           </div>
         </div>

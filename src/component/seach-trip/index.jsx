@@ -8,7 +8,7 @@ export const SearchTrip = () => {
     <section className="search-trip">
       <div className="container">
         <div className="search-trip__header">
-          <p>Choose your Trip</p>
+          <p className="subheading">Choose your Trip</p>
           <h2>Start your Vacation Now</h2>
           <p>
             Looking for your dream vacation destination but do not know where to
@@ -33,7 +33,7 @@ export const SearchTrip = () => {
             </div>
             <div className="form-group__input">
               <label htmlFor="places">Destination</label>
-              <select id="places" name="fruit">
+              <select id="places" name="places" className="dropdown">
                 <option value="italy">Italy</option>
 
                 <option value="spain">Spain</option>
@@ -50,8 +50,8 @@ export const SearchTrip = () => {
               <FaAnchor />
             </div>
             <div className="form-group__input">
-              <label htmlFor="places">Activities</label>
-              <select id="places" name="fruit">
+              <label htmlFor="activities">Activities</label>
+              <select id="activities" name="activities" className="dropdown">
                 <option value="all-activities">All Activities</option>
 
                 <option value="family-friendly">Family Friendly</option>
@@ -64,7 +64,7 @@ export const SearchTrip = () => {
           </div>
 
           <div className="form-group">
-            <button>Search</button>
+            <button className="btn form-btn">Search</button>
           </div>
         </form>
       </div>

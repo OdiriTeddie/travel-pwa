@@ -10,7 +10,7 @@ export const Header = () => {
         </div>
 
         <Nav />
-        <button className="btn">Search Travel</button>
+        <button className="btn search-btn">Search Travel</button>
       </div>
     </header>
   );

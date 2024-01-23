@@ -1,11 +1,12 @@
 import "./index.styles.scss";
+import { IoMdCheckmark } from "react-icons/io";
 
 export const Packages = () => {
   return (
     <section className="packages">
       <div className="container">
         <header className="packages__header">
-          <p>clear Price</p>
+          <p className="subheading">clear Price</p>
           <h2>Affordable Travel Packages</h2>
           <p>
             We believe that everyone deserves to experience their dream vacation
@@ -17,46 +18,88 @@ export const Packages = () => {
           <div className="packages__box">
             <div className="packages__box_price">
               <h3>Half Board</h3>
-              <p>$50 / Day</p>
+              <p className="price">
+                <span>$50</span> / Day
+              </p>
             </div>
             <div className="packages__box_content">
-              <ul>
-                <li>Transfers from Airport</li>
-                <li>Minimum 3 Star Hotel</li>
-                <li>Alcoholic beverages</li>
-                <li>Meals in Restaurants</li>
+              <ul role="list">
+                <li className="price-list">
+                  <IoMdCheckmark />
+                  Transfers from Airport
+                </li>
+                <li className="price-list">
+                  <IoMdCheckmark />
+                  Minimum 3 Star Hotel
+                </li>
+                <li className="price-list">
+                  <IoMdCheckmark />
+                  Alcoholic beverages
+                </li>
+                <li className="price-list">
+                  <IoMdCheckmark />
+                  Meals in Restaurants
+                </li>
               </ul>
-              <button>View Trips</button>
+              <button className="btn">View Trips</button>
             </div>
           </div>
           <div className="packages__box blue">
             <div className="packages__box_price">
               <h3>Half Board</h3>
-              <p>$50 / Day</p>
+              <p className="price">
+                <span>$50</span> / Day
+              </p>
             </div>
             <div className="packages__box_content">
-              <ul>
-                <li>Transfers from Airport</li>
-                <li>Minimum 3 Star Hotel</li>
-                <li>Alcoholic beverages</li>
-                <li>Meals in Restaurants</li>
+              <ul role="list">
+                <li className="price-list">
+                  <IoMdCheckmark />
+                  Transfers from Airport
+                </li>
+                <li className="price-list">
+                  <IoMdCheckmark />
+                  Minimum 3 Star Hotel
+                </li>
+                <li className="price-list">
+                  <IoMdCheckmark />
+                  Alcoholic beverages
+                </li>
+                <li className="price-list">
+                  <IoMdCheckmark />
+                  Meals in Restaurants
+                </li>
               </ul>
-              <button>View Trips</button>
+              <button className="btn btn-blue">View Trips</button>
             </div>
           </div>
           <div className="packages__box dark-blue">
             <div className="packages__box_price">
               <h3>Half Board</h3>
-              <p>$50 / Day</p>
+              <p className="price">
+                <span>$50</span> / Day
+              </p>
             </div>
             <div className="packages__box_content">
-              <ul>
-                <li>Transfers from Airport</li>
-                <li>Minimum 3 Star Hotel</li>
-                <li>Alcoholic beverages</li>
-                <li>Meals in Restaurants</li>
+              <ul role="list">
+                <li className="price-list">
+                  <IoMdCheckmark />
+                  Transfers from Airport
+                </li>
+                <li className="price-list">
+                  <IoMdCheckmark />
+                  Minimum 3 Star Hotel
+                </li>
+                <li className="price-list">
+                  <IoMdCheckmark />
+                  Alcoholic beverages
+                </li>
+                <li className="price-list">
+                  <IoMdCheckmark />
+                  Meals in Restaurants
+                </li>
               </ul>
-              <button>View Trips</button>
+              <button className="btn">View Trips</button>
             </div>
           </div>
         </div>

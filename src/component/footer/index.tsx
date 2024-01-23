@@ -9,12 +9,16 @@ export const Footer = () => {
     <footer className="footer">
       <div className="overlay">
         <div className="container">
-          <div>
+          <div className="col1">
             <h2>Travel beyond your imagination, with our Travel Agency!</h2>
           </div>
-          <div>
+          <div className="col col2">
             <h4>Address</h4>
-            <p>United Kingdom</p>
+            <p className="address">
+              {" "}
+              1080 Brickell Ave <br />
+              United Kingdom
+            </p>
             <ul role="list" className="footer__links">
               <li>
                 <a href="#">
@@ -33,10 +37,10 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="col col3">
             <h4>Contact</h4>
-            <div>
-              <button>info@travel.com</button>
+            <div className="contact">
+              <button className="btn">info@travel.com</button>
               <p>+ 01 483 593 284</p>
             </div>
           </div>
