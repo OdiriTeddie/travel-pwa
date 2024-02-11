@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./index.styles.scss";
 
 export const Adventure = () => {
@@ -21,28 +22,36 @@ export const Adventure = () => {
             <div className="adventure__destination_overlay">
               <h2>USA</h2>
               <p>Here is filled with diverse cultures & cities</p>
-              <button className="btn">All Package</button>
+              <Link to="/packages" className="btn">
+                All Package
+              </Link>
             </div>
           </div>
           <div className="adventure__destination destination2">
             <div className="adventure__destination_overlay">
               <h2>Japan</h2>
               <p>The top culture of the Land of the Rising Sun</p>
-              <button className="btn">All Package</button>
+              <Link to="/packages" className="btn">
+                All Package
+              </Link>
             </div>
           </div>
           <div className="adventure__destination destination3">
             <div className="adventure__destination_overlay">
               <h2>California</h2>
               <p>Explore the vibrant and natural cities and cloud</p>
-              <button className="btn">All Package</button>
+              <Link to="/packages" className="btn">
+                All Package
+              </Link>
             </div>
           </div>
           <div className="adventure__destination destination4">
             <div className="adventure__destination_overlay">
               <h2>Italy</h2>
               <p>Taste the cuisine and all charming cities, towns</p>
-              <button className="btn">All Package</button>
+              <Link to="/packages" className="btn">
+                All Package
+              </Link>
             </div>
           </div>
         </div>

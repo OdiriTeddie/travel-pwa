@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./index.styles.scss";
 
 export const Nav = () => {
@@ -5,13 +6,16 @@ export const Nav = () => {
     <nav className="main-nav">
       <ul role="list" className="nav-list">
         <li>
-          <a href="#">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="#">Travel</a>
+          <Link to="/packages">Packages</Link>
         </li>
         <li>
-          <a href="#">Contact Us</a>
+          <Link to="/services">Services</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact Us</Link>
         </li>
       </ul>
     </nav>

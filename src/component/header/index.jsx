@@ -1,16 +1,20 @@
 import "./index.styles.scss";
 import { Nav } from "../navigation";
+import { Link } from "react-router-dom";
+import SiteLogo from "../../assets/logo.png";
 
 export const Header = () => {
   return (
     <header className="header">
       <div className="container">
-        <div className="logo">
-          <img src="./images/logo.png" alt="site-logo" />
-        </div>
+        <Link to="/" className="logo">
+          <img src={SiteLogo} alt="site-logo" />
+        </Link>
 
         <Nav />
-        <button className="btn search-btn">Search Travel</button>
+        <Link to="/packages" className="btn search-btn">
+          Search Travel
+        </Link>
       </div>
     </header>
   );

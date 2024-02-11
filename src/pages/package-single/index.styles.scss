@@ -1,0 +1,21 @@
+
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 26rem;
+    gap: 2rem;
+    position: relative;
+    // min-height: max-content;
+
+    // & > div {
+    //     outline: 1px solid red;
+    // }
+    
+}
+
+.sidebar {
+    position: sticky;
+    max-height: 100svh;
+    top: 0;
+
+}

@@ -2,6 +2,7 @@ import "./index.styles.scss";
 import { FaSearch } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
 import { FaAnchor } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export const SearchTrip = () => {
   return (
@@ -64,7 +65,9 @@ export const SearchTrip = () => {
           </div>
 
           <div className="form-group">
-            <button className="btn form-btn">Search</button>
+            <Link to="/packages" className="btn form-btn">
+              Search
+            </Link>
           </div>
         </form>
       </div>

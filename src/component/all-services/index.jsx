@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./index.styles.scss";
 import { IoMdCheckmark } from "react-icons/io";
 
@@ -34,7 +35,9 @@ export const AllServices = () => {
                 Create unforgettable memories
               </li>
             </ul>
-            <button className="btn">All Services</button>
+            <Link to="/services" className="btn">
+              All Services
+            </Link>
           </div>
         </div>
       </div>
