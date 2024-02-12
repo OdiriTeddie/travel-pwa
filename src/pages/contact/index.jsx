@@ -1,6 +1,8 @@
 import { PageHeader } from "../../component/page-header";
 import "./index.styles.scss";
 import { FaLocationDot } from "react-icons/fa6";
+import { FaHeadset } from "react-icons/fa6";
+import { MdOutlineEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
@@ -26,33 +28,44 @@ const Contact = () => {
         <div className="contact-box">
           <div className="contact-box__heading">
             <div className="contact-box__icon">
-              <FaLocationDot />
+              <FaHeadset />
             </div>
-            <h3>Location</h3>
+            <h3>Give us a call</h3>
           </div>
           <div className="contact-box__details">
-            <h4>Travel Agency</h4>
-            <p>1626 Michigan Ave, Wolverhampton WV39 0JT, United Kingdom</p>
+            <h4>Mobile Number</h4>
+            <p>
+              Paul Davis - Tour Consultant : +1 629 592 593 Amy Moore - Local
+              Guide : +1 483 842 205
+            </p>
           </div>
           <div className="contact-box__details">
-            <h4>Travel Agency</h4>
-            <p>1626 Michigan Ave, Wolverhampton WV39 0JT, United Kingdom</p>
+            <h4>Office Number</h4>
+            <p>
+              Administration : +1 184 016 482 Technical Office +1 963 935 836
+            </p>
           </div>
         </div>
         <div className="contact-box">
           <div className="contact-box__heading">
             <div className="contact-box__icon">
-              <FaLocationDot />
+              <MdOutlineEmail />
             </div>
-            <h3>Location</h3>
+            <h3>Write for anything</h3>
           </div>
           <div className="contact-box__details">
-            <h4>Travel Agency</h4>
-            <p>1626 Michigan Ave, Wolverhampton WV39 0JT, United Kingdom</p>
+            <h4>Quotes</h4>
+            <p>
+              Write to this email for a detailed quotation quote@travel.com and
+              information.
+            </p>
           </div>
           <div className="contact-box__details">
-            <h4>Travel Agency</h4>
-            <p>1626 Michigan Ave, Wolverhampton WV39 0JT, United Kingdom</p>
+            <h4>Consulting</h4>
+            <p>
+              Our free consultation service can be requested here
+              info@travel.com every day.
+            </p>
           </div>
         </div>
       </section>

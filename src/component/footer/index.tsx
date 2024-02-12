@@ -3,6 +3,7 @@ import React from "react";
 import { FaFacebook } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -40,7 +41,9 @@ export const Footer = () => {
           <div className="col col3">
             <h4>Contact</h4>
             <div className="contact">
-              <button className="btn">info@travel.com</button>
+              <Link to="/contact" className="btn">
+                info@travel.com
+              </Link>
               <p>+ 01 483 593 284</p>
             </div>
           </div>

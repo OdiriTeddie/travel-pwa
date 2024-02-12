@@ -1,5 +1,6 @@
 import "./index.styles.scss";
 import { FaMapMarkerAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export const PlanTrip = () => {
   return (
@@ -15,7 +16,9 @@ export const PlanTrip = () => {
               can provide you with a custom-tailored itinerary that exceeds your
               expectations.
             </p>
-            <button className="btn">More Info</button>
+            <Link to="/services" className="btn">
+              More Info
+            </Link>
           </div>
           <div>
             <img src="./images/map.png" alt="" />
@@ -42,7 +45,9 @@ export const PlanTrip = () => {
                 </p>
               </div>
               <div className="travel-box__footer">
-                <button className="btn">Details</button>
+                <Link to="/packages/toscany" className="btn">
+                  Details
+                </Link>
                 <div>
                   <p>
                     <span>From</span>$789
@@ -71,7 +76,9 @@ export const PlanTrip = () => {
                 </p>
               </div>
               <div className="travel-box__footer">
-                <button className="btn">Details</button>
+                <Link to="/packages/tokyo" className="btn">
+                  Details
+                </Link>
                 <div>
                   <p>
                     <span>From</span>$789
@@ -86,10 +93,10 @@ export const PlanTrip = () => {
             </div>
             <div className="travel-box__content">
               <div>
-                <h2>Santa Monica</h2>
+                <h2>Miami</h2>
                 <div className="travel-box__location">
                   <FaMapMarkerAlt />
-                  <p>California</p>
+                  <p>USA</p>
                 </div>
               </div>
               <div>
@@ -99,7 +106,9 @@ export const PlanTrip = () => {
                 </p>
               </div>
               <div className="travel-box__footer">
-                <button className="btn">Details</button>
+                <Link to="/packages/miami" className="btn">
+                  Details
+                </Link>
                 <div>
                   <p>
                     <span>From</span>$789

@@ -33,7 +33,13 @@
 .contact-details {
     padding-block: 4rem;
     display: flex;
+    flex-direction: column;
+    gap: 2rem;
     justify-content: space-between;
+
+    @media(min-width: 756px){
+        flex-direction: row;
+    }
 }
 
 .contact-box {
@@ -72,13 +78,15 @@
             font-weight: 400;
         }
     }
+
+   
 }
 
 
 .contact-form {
     background-color: #EFF2F8;
     margin-block: 5rem;
-    padding-inline: 15rem;
+    padding-inline: 1rem;
     padding-block: 5rem;
     border-radius: 15px;
 }
@@ -103,6 +111,13 @@
     &__subtext {
         max-width: 50ch;
         margin-inline: auto;
+    }
+
+    @media(min-width: 960px){
+        margin-block: 5rem;
+        padding-inline: 15rem;
+        padding-block: 5rem;
+        border-radius: 15px;
     }
 }
 

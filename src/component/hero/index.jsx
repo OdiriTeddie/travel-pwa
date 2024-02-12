@@ -1,5 +1,6 @@
 import "./index.styles.scss";
 import { FaAnchor } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
@@ -21,7 +22,9 @@ export const Hero = () => {
               <h2>+ 01 234 345 894</h2>
             </div>
           </div>
-          <button className="btn">Book Now</button>
+          <Link to="/contact" className="btn">
+            Book Now
+          </Link>
         </div>
       </div>
     </section>

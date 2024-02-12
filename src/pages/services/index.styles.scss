@@ -57,10 +57,22 @@
     }
 
     &__img {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
+        display: none;
+        
+
     }
+
+   
+    @media(min-width: 960px) {
+        &__img {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+
+    }
+    
 }
 
 
@@ -80,6 +92,8 @@
     height: 100%;
 
 }
+
+
 
 .img-small {
     width: 31%;
