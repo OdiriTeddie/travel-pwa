@@ -77,23 +77,23 @@ export default function Services() {
           <div className="module-list">
             <div className="module-list__box">
               <img src={Airline} alt="" />
-              <h3>Airline Tickets</h3>
-              <p>
-                Our travel agency specializes in providing our customers with
-                the best deals on airline tickets.
-              </p>
-            </div>
-            <div className="module-list__box">
-              <img src={OceanCruises} alt="" />
-              <h3>Airline Tickets</h3>
+              <h3>Ocean Cruises</h3>
               <p>
                 Luxurious and comfortable way of travel, and passengers can
                 enjoy stunning views of the sea.
               </p>
             </div>
             <div className="module-list__box">
+              <img src={OceanCruises} alt="" />
+              <h3>Means of Transport</h3>
+              <p>
+                Our travel agency offers a variety of means of transport to get
+                you around your destination safely.
+              </p>
+            </div>
+            <div className="module-list__box">
               <img src={Transport} alt="" />
-              <h3>Airline Tickets</h3>
+              <h3>Means of Transport</h3>
               <p>
                 Our travel agency offers a variety of means of transport to get
                 you around your destination safely.
@@ -101,7 +101,7 @@ export default function Services() {
             </div>
             <div className="module-list__box">
               <img src={Iteneraries} alt="" />
-              <h3>Airline Tickets</h3>
+              <h3>Travel itineraries</h3>
               <p>
                 Our team of experts will take care of all the planning and
                 logistics, providing you with a detailed itinerary.
@@ -109,7 +109,7 @@ export default function Services() {
             </div>
             <div className="module-list__box">
               <img src={Insurance} alt="" />
-              <h3>Airline Tickets</h3>
+              <h3>Travel Insurance</h3>
               <p>
                 Travel insurance is an essential part of any trip, providing
                 peace of mind and protection.
@@ -117,7 +117,7 @@ export default function Services() {
             </div>
             <div className="module-list__box">
               <img src={Guide} alt="" />
-              <h3>Airline Tickets</h3>
+              <h3>Local Guide</h3>
               <p>
                 We can connect you with guides who will take you off the best
                 path and show you their city.
