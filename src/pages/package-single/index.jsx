@@ -16,6 +16,7 @@ export default function PackageSingle() {
     Egypt: ["nile", "cairo"],
     France: ["paris"],
     Greece: ["athens", "rome"],
+    USA: ["miami"],
   };
 
   const [wasSubmitted, setWasSubmitted] = useState(false);
