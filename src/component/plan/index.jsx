@@ -48,10 +48,8 @@ export const PlanTrip = () => {
                 <Link to="/packages/toscany" className="btn">
                   Details
                 </Link>
-                <div>
-                  <p>
-                    <span>From</span>$789
-                  </p>
+                <div className="travel-box__quote">
+                  From<span>$450</span>
                 </div>
               </div>
             </div>
@@ -79,10 +77,8 @@ export const PlanTrip = () => {
                 <Link to="/packages/tokyo" className="btn">
                   Details
                 </Link>
-                <div>
-                  <p>
-                    <span>From</span>$789
-                  </p>
+                <div className="travel-box__quote">
+                  From<span>$790</span>
                 </div>
               </div>
             </div>
@@ -109,10 +105,8 @@ export const PlanTrip = () => {
                 <Link to="/packages/miami" className="btn">
                   Details
                 </Link>
-                <div>
-                  <p>
-                    <span>From</span>$789
-                  </p>
+                <div className="travel-box__quote">
+                  From<span>$700</span>
                 </div>
               </div>
             </div>

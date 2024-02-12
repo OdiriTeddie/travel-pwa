@@ -2,5 +2,12 @@
   .nav-list {
     display: flex;
     gap: 1rem;
+    font-weight: 500;
+  }
+
+  @media(min-width: 756px) {
+    .nav-list {
+      gap: 2rem;
+    }
   }
 }
